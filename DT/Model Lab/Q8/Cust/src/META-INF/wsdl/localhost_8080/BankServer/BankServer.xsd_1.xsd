@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://bank.me.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://bank.me.org/">
+
+<xs:element name="Account_no" type="tns:Account_no"/>
+
+<xs:element name="Account_noResponse" type="tns:Account_noResponse"/>
+
+<xs:element name="Deposite" type="tns:Deposite"/>
+
+<xs:element name="DepositeResponse" type="tns:DepositeResponse"/>
+
+<xs:element name="Withdraw" type="tns:Withdraw"/>
+
+<xs:element name="WithdrawResponse" type="tns:WithdrawResponse"/>
+
+<xs:element name="showBalance" type="tns:showBalance"/>
+
+<xs:element name="showBalanceResponse" type="tns:showBalanceResponse"/>
+
+<xs:complexType name="Account_no">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Account_noResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="showBalance">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="showBalanceResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Withdraw">
+<xs:sequence>
+<xs:element name="parameter" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="WithdrawResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Deposite">
+<xs:sequence>
+<xs:element name="parameter" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DepositeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

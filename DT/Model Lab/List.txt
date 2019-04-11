@@ -1,0 +1,8 @@
+    1. Implementation of Echo Server and Client Using TCP
+    2. Echo Server with GUI in JAVA 
+    3. Write both client and server programs demonstrating Socket API using multithreaded client/server in java. 
+    4. Write a java network program in such a way that the server broadcasts quotes at a regular interval and the client passively listens for quotes and does so on a Multicast Socket.
+    5. Java code for serialization and deserialization of a Java object. 
+    6. Simple RMI Application to bill the amount purchased by the client.
+    7. Java RMI with database connectivity (Online Shopping)
+    8. Create a web service using JAX-WS for Banking Application.
